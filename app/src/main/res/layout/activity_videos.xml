@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".videos">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnatrasvideosexplicativo"
+                android:layout_width="45dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/flecha"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="70dp"
+                android:text="Videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btnbatidoverde"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="128dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/batidodearandanosfresasyavena" />
+
+            <Button
+                android:id="@+id/video1"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/btnbatidoverde"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_alignTop="@+id/btnbatidoverde"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="150dp"
+                android:text="Batido de Arándanos, Fresas y Avena"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/btnbatidoverde"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="Si tienes un puñado de fresas y arándanos, y te apetece hacer algo original... ¡súper idea! Este batido te va a resultar tan delicioso que te lo vas a disfrutar del primer al último sobro. ¡A por él!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+            <Button
+                android:id="@+id/cintazul1"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="400dp"
+                android:background="@drawable/button" />
+
+            <Button
+                android:id="@+id/video2"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/burrito"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/burritos" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Burrito con Huevo Revuelto"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="Resulta increíble que el huevo y el calabacín den lugar a un plato tan exquisito como este. Para desayunar o cenar es una opción estupenda. ¡Confía en nosotros!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul2"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+            <Button
+                android:id="@+id/video3"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul2"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/bizcocho"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/bicocho" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Bizcocho de Yogur y Limon"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="Si quieres tener desayuno y merienda asegurada para toda la semana aprovecha un rato libre que tengas y disfruta haciendo este aromático y sabroso bizcocho de yogur y limón. ¿Te apetece, verdad? ¡Normal!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul3"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+            <Button
+                android:id="@+id/video4"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/tarta"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video4"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/tarta" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video4"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Tarta de Arandanos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video4"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="Esta tarta súper sencilla de hacer, con mucha fruta, con un bizcocho extra esponjoso y nada pesado te va a encantar. Lleva poca azúcar así que es perfecta para el día a día, para el desayuno, el almuerzo, la merienda o de postre, cualquier momento es bueno."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul4"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto4"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+            <Button
+                android:id="@+id/video5"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul4"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/curry"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video5"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/curry" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video5"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Curry de Garbanzos con Batata"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto5"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video5"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="¡Menudo recetón el de hoy! Si eres amante de los currys no puedes perderte este de garbanzos y batata. Que no te de miedo hacerlo, ¡porque es facilísimo!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul5"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto5"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/video6"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul5"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/langostinos"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video6"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/bowldelangostnosdearroz" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video6"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Bowl de Langostinos con Arroz y Judias"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto6"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video6"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="¿Qué tal si le sacamos partido a esos langostinos y a ese puñado de judías verdes que tienes por tu nevera? Con esta sabrosa y sorprendente recetas vas a hacerte un platazo espectacular. Verás que vas a quedar encantado."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul6"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto6"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+
+
+
+            <Button
+                android:id="@+id/video7"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul6"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/enchiladas"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video7"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/enchiladasdepollo" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video7"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Enchiladas de Pollo"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto7"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video7"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="¿Existe en este planeta alguien a quién no le guste la comida mexicana? Te traemos una versión de enchiladas súper sencilla, pensada para principiantes. Con esta recta imposible que no te queden ¡riquísimas!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul7"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto7"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/video8"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul7"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/calabaciconpollo"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video8"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/noodlesdecalabacinconpolloyalmendras" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video8"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Noodles de Calabacín con Pollo y Almendras"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto8"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video8"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="¡Lo sabemos! Quieres comer de forma saludable sin invertirle mucho tiempo a la cocina y al bolsillo. Pues esta receta de espaguetis de calabacín con pollo y almendras es ¡tu solución! No te la pierdas."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul8"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto8"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/video9"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul8"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/ensaladaarrozgarbazos"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video9"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ensaladarroz" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video9"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Ensalada de Arroz, Garbanzos y Zanahoria"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto9"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video9"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="Si llega la hora de comer y te plantas con este bowl en la mesa no te sorprendas si los de tu alrededor lo miran de reojo, ¡menuda pinta tan buena tiene! Lo mejor es que ¡está muy rico!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul9"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto9"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/video10"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/cintazul9"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/videos"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/hamburguesa"
+                android:layout_width="315dp"
+                android:layout_height="150dp"
+                android:layout_alignTop="@+id/video10"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/hamburguesasdebrocolizanahoriaycalabacin" />
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/video10"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:text="Hamburguesas de Brócoli, Zanahoria"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/texto10"
+                android:layout_width="315dp"
+                android:layout_height="100dp"
+                android:layout_alignTop="@+id/video10"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="180dp"
+                android:text="Una manera súper divertida de comer verduras es haciendo hamburguesas con ellas. Aquí te traemos unas de brócoli, zanahoria y calabacín. Tienen buena pinta ¿no te parece?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cintazul10"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/texto10"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button" />
+
+            <Button
+                android:id="@+id/cintazul11"
+                android:layout_width="315dp"
+                android:layout_height="5dp"
+                android:layout_below="@+id/cintazul10"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

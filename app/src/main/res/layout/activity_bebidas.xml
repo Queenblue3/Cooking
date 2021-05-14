@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    tools:context=".bebidas">
+
+    <ImageButton
+        android:id="@+id/btnbatidoverde"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/batidodearandanosfresasyavena" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Batido de Arándanos, Fresas y Avena"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnbatidoverde" />
+
+    <ImageButton
+        android:id="@+id/btnbatidozanahoria"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnzumozanahoria"
+        app:srcCompat="@drawable/frappedecafeconchocolate" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Frappe de Café con Chocolate"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnbatidozanahoria" />
+
+    <ImageButton
+        android:id="@+id/btnzumozanahoria"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnbatidoverde"
+        app:srcCompat="@drawable/aguadepepinoyjengibre" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Agua de Pepino y Jengibre"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnzumozanahoria" />
+
+    <ImageButton
+        android:id="@+id/btnsmoothie"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnbatidozanahoria"
+        app:srcCompat="@drawable/smoothiedefresaypina" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Smoothie de Fresa y Piña"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnsmoothie" />
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Bebidas"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btnatrasbebidas"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/flecha"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

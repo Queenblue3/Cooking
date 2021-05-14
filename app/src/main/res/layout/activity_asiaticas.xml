@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    tools:context=".asiaticas">
+
+    <ImageButton
+        android:id="@+id/btnlangostinos"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bowldelangostnosdearroz" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Bowl de Langostinos con Arroz y Judias Verdes"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnlangostinos" />
+
+    <ImageButton
+        android:id="@+id/btnarrozfrito"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlangostinos"
+        app:srcCompat="@drawable/arrozfrito" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Arroz Frito con Tenera"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnarrozfrito" />
+
+    <ImageButton
+        android:id="@+id/btnsalteado"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnarrozfrito"
+        app:srcCompat="@drawable/salteado" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Salteado de Pavo, Brocoli y Pimiento Rojo"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnsalteado" />
+
+    <ImageButton
+        android:id="@+id/btnpavo"
+        android:layout_width="315dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsalteado"
+        app:srcCompat="@drawable/pavo" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="315dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="82dp"
+        android:background="#99FFFFFF"
+        android:text="Noodles con Pavo y Pimiento"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnpavo" />
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Asiatica"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btnatrasasiaticos"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/flecha"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

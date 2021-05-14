@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    tools:context=".menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="268dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montereyflf"
+                android:text="Chilaquiles Verdes"
+                android:textAlignment="center"
+                android:textColor="#00ACC1"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="326dp"
+                android:layout_height="258dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="16dp"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/chilaquiles" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredientes"
+                android:fontFamily="@font/rainguarddemoregular"
+                android:textAlignment="center"
+                android:textColor="#00ACC1"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="8 tomates verdes 1/4 cebollas 4 chiles serranos 1 diente de ajo 1 manojo de cilantro fresco 2 cucharadas de aceite vegetal suficiente de tortilla, cortadas en forma triangular, del día anterior suficiente de aceite vegetal, para freír 1 pechuga de pollo, cocido y deshebrado suficiente de crema, para acompañar suficiente de queso fresco, desmoronado, para acompañar suficiente de cebolla, fileteada"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
+                android:text="Preparación"
+                android:fontFamily="@font/rainguarddemoregular"
+                android:textAlignment="center"
+                android:textColor="#00ACC1"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="En una olla con agua hirviendo, cuece los tomates verdes, la cebolla y los chiles por 5 minutos."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="Muele los ingredientes que cociste junto con el ajo y el cilantro, hasta que obtengas una textura tersa."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="32dp"
+                android:textSize="18sp"
+                android:text="En un sartén, agrega el aceite vegetal y fríe la salsa, cocina por 5 minutos y reserva." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="32dp"
+                android:textSize="18sp"
+                android:text="Para los totopos: primero calienta un sartén profundo y luego, calienta suficiente aceite para freír los totopos por 3 minutos." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="32dp"
+                android:textSize="18sp"
+                android:text="Para el montaje: Coloca una base con los totopos, el pollo deshebrado y agrega la salsa caliente encima. Acompaña con crema, queso y cebolla fileteada. Disfruta." />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ACC1"
+                android:text=""
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

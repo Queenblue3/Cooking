@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".crepas">
+
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="55dp"
+        android:background="#3400ACC1"/>
+
+    <Button
+        android:id="@+id/btnatrasrecetaensaldapasta"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/flecha"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="55dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/crepasavena" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="270dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/galletayleche" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="30dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/galletayleche" />
+            <TextView
+                android:id="@+id/txtnombreretca"
+                android:layout_width="408dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="225dp"
+                android:background="#99FFFFFF"
+                android:text="Crepas de Avena con Espinacas y Champiñones"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="20dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="43dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="305dp"
+                app:srcCompat="@drawable/gotrro" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_marginTop="355dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="Cooking"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="172dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="197dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="250dp"
+                android:drawableLeft="@drawable/tiempo"
+                android:text="25 Minutos"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/ingredientes"
+                android:text="8 Ingredientes"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="150dp"
+                android:drawableLeft="@drawable/dificultad"
+                android:text="Dificultad"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="100dp"
+                android:text="Porciones a preparar"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="175dp"
+                android:text="4"
+                android:textColor="#B0000000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="130dp"
+                android:text="Ingredientes"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="600dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="605dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/espinaca" />
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="100dp"
+                android:text="Espinaca"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="620dp"
+                android:layout_marginLeft="100dp"
+                android:text="300 gramos"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="650dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="655dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/huevogallina" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="100dp"
+                android:text="Huevo"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="700dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="705dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cebollas" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="700dp"
+                android:layout_marginLeft="100dp"
+                android:text="Cebolla"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="720dp"
+                android:layout_marginLeft="100dp"
+                android:text="1 unidad"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="750dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="755dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/champi" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="100dp"
+                android:text="Champiñon"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="770dp"
+                android:layout_marginLeft="100dp"
+                android:text="12 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="800dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="805dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/leche" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="100dp"
+                android:text="Leche"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="820dp"
+                android:layout_marginLeft="100dp"
+                android:text="800 mililitros"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="850dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="855dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/sal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="850dp"
+                android:layout_marginLeft="100dp"
+                android:text="Sal"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="870dp"
+                android:layout_marginLeft="100dp"
+                android:text="1 cucharada"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="900dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="905dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/aceiteoliva" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="900dp"
+                android:layout_marginLeft="100dp"
+                android:text="Aceite De Oliva"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="920dp"
+                android:layout_marginLeft="100dp"
+                android:text="4 cucharadas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="950dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="955dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/avena" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="950dp"
+                android:layout_marginLeft="100dp"
+                android:text="Avena"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="970dp"
+                android:layout_marginLeft="100dp"
+                android:text="400 gramos"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1030dp"
+                android:layout_marginLeft="150dp"
+                android:text="Pasos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1070dp"
+                android:paddingTop="5dp"
+                android:layout_marginRight="30dp"
+                android:justificationMode="inter_word"
+                android:text="1.- Lava las espinacas y córtalas en tiras no muy largas. Pica también media cebolla y los champiñones"
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1150dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="2.- En una sartén con un poco de aceite caliente sofríe la cebolla y los champiñones a fuego medio durante 4 - 5 minutos. Añade las espinacas, un poco de sal a todo, y saltea durante un par de minutos más. Verás cómo el volumen de las espinacas reduce muchísimo."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1290dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="3.- En tu procesador de alimentos tritura la avena hasta convertirla en harina de avena."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1350dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="4.- Añade a la harina de avena, el huevo, media cucharadita de sal y leche. Tritura todo."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1420dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="5.- En una sartén echa unas gotitas de aceite de manera que se esparza por toda la sartén. Extiende un poco de la mezcla, mueve la sartén para que te quede toda bien cubierta de la masa, y cocina a fuego medio 1 - 2 minutos. Dale la vuelta con cuidado."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1540dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="6.- Vierte sobre la misma un poco del salteado de espinacas con champiñones que has preparado y, poco a poco, ve cerrando la crepa. Repite la operación tantas veces como crepas y relleno que te salga."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1680dp"
+                android:layout_marginLeft="110dp"
+                android:text="Trucos y consejos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1710dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:text="Conforme va pasando el tiempo la masa de avena que has preparado poco apoco tenderá a espesar. Po eso, si bien las primeras crepas pueden resultar fáciles de esparcir por la sartén, puede que luego te cueste un poco esparcir la masa por uqe se ha hecho más densa. Entonces vuelve a batir la masa un poco con la batidora y problema solucionado."
+                android:textColor="#B0000000"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="408dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1900dp"
+                android:background="#3400ACC1"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".aguadepepinoyjengibre">
+
+
+
+
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="55dp"
+        android:background="#3400ACC1"/>
+
+    <Button
+        android:id="@+id/btnatrasrecetaensaldapasta"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/flecha"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="55dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/aguadepepinoyjengibre" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="270dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/tetera" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="30dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/tetera" />
+            <TextView
+                android:id="@+id/txtnombreretca"
+                android:layout_width="408dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="225dp"
+                android:background="#99FFFFFF"
+                android:text="Agua de Pepino y Jengibre"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="20dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="43dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="305dp"
+                app:srcCompat="@drawable/gotrro" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_marginTop="355dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="Cooking"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="172dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="197dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="250dp"
+                android:drawableLeft="@drawable/tiempo"
+                android:text="5 Minutos"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/ingredientes"
+                android:text="5 Ingredientes"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="150dp"
+                android:drawableLeft="@drawable/dificultad"
+                android:text="Dificultad"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="100dp"
+                android:text="Porciones a preparar"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="175dp"
+                android:text="4"
+                android:textColor="#B0000000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="130dp"
+                android:text="Ingredientes"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="600dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="605dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/jengibre" />
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="100dp"
+                android:text="Jengibre"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="620dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 cucharaditas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="650dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="655dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/hojasdementa" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="100dp"
+                android:text="Hojas De Menta"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="100dp"
+                android:text="20 hojas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="700dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="705dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/agua" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="700dp"
+                android:layout_marginLeft="100dp"
+                android:text="Agua"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="720dp"
+                android:layout_marginLeft="100dp"
+                android:text="4 tazas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="750dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="755dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/limon" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="100dp"
+                android:text="Limón"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="770dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="800dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="805dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pepino" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="100dp"
+                android:text="Pepino"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="820dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="880dp"
+                android:layout_marginLeft="150dp"
+                android:text="Pasos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="920dp"
+                android:paddingTop="5dp"
+                android:layout_marginRight="30dp"
+                android:justificationMode="inter_word"
+                android:text="1.- Lava el pepino y córtalo en rodajas."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="980dp"
+                android:layout_marginRight="30dp"
+                android:justificationMode="inter_word"
+                android:paddingTop="5dp"
+                android:text="2.- Lava el limón y córtalo en rodajas."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1040dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="3.- Pela el jengibre con una cucharilla y rállalo. Necesitarás una cucharadita de jengibre rallado."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1110dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="4.- Lava las hojas de menta."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1160dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="5.- Llena una botella de agua e incorpora todos los ingredientes."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1230dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="6.- Deja reposar en la nevera entre 12 y 24 horas. Pasado este tiempo cuélala y tendrás listo tu agua detox."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1340dp"
+                android:layout_marginLeft="110dp"
+                android:text="Trucos y consejos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1370dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:text="Sustituye la menta por hierbabuena o elimina el jengibre. Lo bueno de estas recetas es que puedes modificarlas a tu antojo."
+                android:textColor="#B0000000"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="408dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1470dp"
+                android:background="#3400ACC1" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

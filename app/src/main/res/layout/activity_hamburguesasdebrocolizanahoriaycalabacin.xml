@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".hamburguesasdebrocolizanahoriaycalabacin">
+
+
+
+
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="55dp"
+        android:background="#3400ACC1"/>
+
+    <Button
+        android:id="@+id/btnatrasrecetaensaldapasta"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/flecha"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="55dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hamburguesasdebrocolizanahoriaycalabacin" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="270dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/japonescena" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="30dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/japonescena" />
+            <TextView
+                android:id="@+id/txtnombreretca"
+                android:layout_width="408dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="225dp"
+                android:background="#99FFFFFF"
+                android:text="Hamburguesas de Brócoli, Zanahoria y Calabacín"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="20dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="43dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="305dp"
+                app:srcCompat="@drawable/gotrro" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_marginTop="355dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="Cooking"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="172dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="197dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="250dp"
+                android:drawableLeft="@drawable/tiempo"
+                android:text="20 Minutos"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/ingredientes"
+                android:text="7 Ingredientes"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="150dp"
+                android:drawableLeft="@drawable/dificultad"
+                android:text="Dificultad"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="100dp"
+                android:text="Porciones a preparar"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="175dp"
+                android:text="4"
+                android:textColor="#B0000000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="130dp"
+                android:text="Ingredientes"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="600dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="605dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/brocoli" />
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="100dp"
+                android:text="Brócoli"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="620dp"
+                android:layout_marginLeft="100dp"
+                android:text="300 gramos"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="650dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="655dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/zanahoria" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="100dp"
+                android:text="Zanahoria"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="700dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="705dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/calabacin" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="700dp"
+                android:layout_marginLeft="100dp"
+                android:text="Calabacín"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="720dp"
+                android:layout_marginLeft="100dp"
+                android:text="300 gramos"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="750dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="755dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/huevogallina" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="100dp"
+                android:text="Huevo"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="770dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="800dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="805dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/aceiteoliva" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="100dp"
+                android:text="Aceite De Oliva"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="820dp"
+                android:layout_marginLeft="100dp"
+                android:text="6 cucharadas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="850dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="855dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/sal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="850dp"
+                android:layout_marginLeft="100dp"
+                android:text="Sal"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="870dp"
+                android:layout_marginLeft="100dp"
+                android:text="4 pizcas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="900dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="905dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/panrallado" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="900dp"
+                android:layout_marginLeft="100dp"
+                android:text="Pan Rallado"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="920dp"
+                android:layout_marginLeft="100dp"
+                android:text="6 cucharadas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="980dp"
+                android:layout_marginLeft="150dp"
+                android:text="Pasos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1020dp"
+                android:paddingTop="5dp"
+                android:layout_marginRight="30dp"
+                android:justificationMode="inter_word"
+                android:text="1.- Comienza preparando las verduras. Lava y corta el brócoli. Pela la zanahoria y córtala en trozos. Y, por último, lava y ralla el calabacín. Una vez rallado coloca el calabacín en un colador y presiónalo para quitarle todo el agua posible. Cuanto más agua le quites mejor ya que así te costará menos formar las hamburguesas."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1190dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="2.- En una cazuela con agua hirviendo, pon a cocer con un poco de sal la zanahoria y el brócoli. Pasado 4-5 minutos, retira y cuela las verduras."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1290dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="3.- En tu procesador de alimentos o picadora coloca los trozos de brócoli y de zanahoria, y dale unos golpes de manera que te quede la verdura en trozos pequeños. No te pases de potencia, no debe quedarte las verduras trituradas, pueden quedar algunos trocitos enteros."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1450dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="4.- Bate un huevo y viértelo en un recipiente amplio. Añade al recipiente el brócoli y la zanahoria troceados, el calabacín rallado y las cucharadas de pan rallado. Mezcla todos los ingredientes."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1570dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="5.- Coge un poco de la mezcla y comienza a hacer hamburguesas con tus manos. Haz tantas como la masa te dé de si."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1670dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="6.- Fríelas en una sartén con aceite caliente por ambos lados. ¡Buen provecho!"
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1780dp"
+                android:layout_marginLeft="110dp"
+                android:text="Trucos y consejos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1810dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:text="Puedes acompañar estas hamburguesas con una salsa de yogur muy facilita de hacer. Coloca un yogur en un recipiente, media cucharadita de sal, medio ajo picado y echa un chorrito de zumo de limón. Revuelve y añádele pimienta. ¡Una salsa genial!"
+                android:textColor="#B0000000"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1980dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:text="¿Quieres hacer la hamburguesa más completa? Puedes añadirles un par de latas de atún. Sólo tienes que añadir la carne de atún a la mezcla de las verduras, el huevo y el pan rallado, y continuar la receta tal cual se explica."
+                android:textColor="#B0000000"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="408dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="2120dp"
+                android:background="#3400ACC1"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

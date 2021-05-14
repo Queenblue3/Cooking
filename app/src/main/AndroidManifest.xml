@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cooking">
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".camara"></activity>
+        <activity android:name=".videos" />
+        <activity android:name=".espaguetisconalbondigasdepavo" />
+        <activity android:name=".galletasdeavenazanahoriayjengibre" />
+        <activity android:name=".hamburguesasdebrocolizanahoriaycalabacin" />
+        <activity android:name=".lasanadeberenjenaconsojatexturizada" />
+        <activity android:name=".smoothiedefresaypina" />
+        <activity android:name=".frappedecafeconchocolate" />
+        <activity android:name=".aguadepepinoyjengibre" />
+        <activity android:name=".batidodearandanosfresasyavena" />
+        <activity android:name=".ensaladadegarbanzosconquinoa" />
+        <activity android:name=".ensaladademanzanaquesoyalmendras" />
+        <activity android:name=".ensaladadearrozconpepinozanahoria" />
+        <activity android:name=".ensaladadearrozgarbanzosyzanahoria" />
+        <activity android:name=".noodlesdecalabazinconpolloyalmendras" />
+        <activity android:name=".pollocontomateconsalsadetomate" />
+        <activity android:name=".crepasdepolloconpimientorojo" />
+        <activity android:name=".sandwitchdepollomanzanaynueces" />
+        <activity android:name=".enchiladasdepollo" />
+        <activity android:name=".burritoconpolloypimiento" />
+        <activity android:name=".tacosconcarneypimiento" />
+        <activity android:name=".nachosconfrijoles" />
+        <activity android:name=".noodlesconpavoypimiento" />
+        <activity android:name=".salteadodepavobrocoliypimiento" />
+        <activity android:name=".arrozfritoconternera" />
+        <activity android:name=".langostinosarrozyjudiasverdes" />
+        <activity android:name=".sopadeborcoli" />
+        <activity android:name=".currydegarbanzos" />
+        <activity android:name=".pastadeespelta" />
+        <activity android:name=".carpaccciodetomate" />
+        <activity android:name=".heladodelimon" />
+        <activity android:name=".rocasdechocolate" />
+        <activity android:name=".manzanasalhorno" />
+        <activity android:name=".tardtadearandanos" />
+        <activity android:name=".bizcohodeyoyur" />
+        <activity android:name=".tortilladeespinaca" />
+        <activity android:name=".crepas" />
+        <activity android:name=".bowldearrozconyogur" />
+        <activity android:name=".tostadasdehuevoconaguacate" />
+        <activity android:name=".burritoconhuevo" />
+        <activity android:name=".bownldearrozconpollo" />
+        <activity android:name=".arrozconpollo" />
+        <activity android:name=".recetaensaldapasta" />
+        <activity android:name=".otros" />
+        <activity android:name=".bebidas" />
+        <activity android:name=".ensaladas" />
+        <activity android:name=".pollo" />
+        <activity android:name=".mexicana" />
+        <activity android:name=".asiaticas" />
+        <activity android:name=".verduras" />
+        <activity android:name=".postres" />
+        <activity android:name=".desayunos" />
+        <activity android:name=".fit" />
+        <activity android:name=".botones_menu" />
+        <activity android:name=".resgitro" />
+        <activity android:name=".prueba" />
+        <activity android:name=".menu" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

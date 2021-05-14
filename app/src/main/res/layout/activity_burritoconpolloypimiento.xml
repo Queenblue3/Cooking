@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".burritoconpolloypimiento">
+
+
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="55dp"
+        android:background="#3400ACC1"/>
+
+    <Button
+        android:id="@+id/btnatrasrecetaensaldapasta"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/flecha"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset" >
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="55dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/burritospollo" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="270dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/mexicano" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="30dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/mexicano" />
+            <TextView
+                android:id="@+id/txtnombreretca"
+                android:layout_width="408dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="225dp"
+                android:background="#99FFFFFF"
+                android:text="Burritos de Pollo con Piminetos y Queso"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="20dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="43dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="305dp"
+                app:srcCompat="@drawable/gotrro" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_marginTop="355dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="Cooking"
+                android:textSize="12dp"
+                android:textColor="@color/black" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="172dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="197dp"
+                android:layout_marginTop="375dp"
+                android:background="@drawable/estrella" />
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="250dp"
+                android:drawableLeft="@drawable/tiempo"
+                android:text="20 Minutos"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/ingredientes"
+                android:text="10 Ingredientes"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="150dp"
+                android:drawableLeft="@drawable/dificultad"
+                android:text="Dificultad"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="100dp"
+                android:text="Porciones a preparar"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="175dp"
+                android:text="4"
+                android:textColor="#B0000000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="130dp"
+                android:text="Ingredientes"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="600dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="605dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pechugadepavo" />
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:layout_marginLeft="100dp"
+                android:text="Pechuga De Pollo"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="620dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="650dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="655dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/piminetorojo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="100dp"
+                android:text="Pimiento Rojo"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="100dp"
+                android:text="1 unidad"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="700dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="705dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pimientoverde" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="700dp"
+                android:layout_marginLeft="100dp"
+                android:text="Pimiento Verde"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="720dp"
+                android:layout_marginLeft="100dp"
+                android:text="1 unidad"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="750dp"
+                android:background="#14575353"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="755dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cebollas" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="100dp"
+                android:text="Cebolla"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="770dp"
+                android:layout_marginLeft="100dp"
+                android:text="1 unidad"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="800dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="805dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/quesorallado" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="800dp"
+                android:layout_marginLeft="100dp"
+                android:text="Queso Rallado"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="820dp"
+                android:layout_marginLeft="100dp"
+                android:text="4 puñados"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="850dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="855dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/agua" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="850dp"
+                android:layout_marginLeft="100dp"
+                android:text="Agua"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="870dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 cucharadas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="900dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="905dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tortillas" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="900dp"
+                android:layout_marginLeft="100dp"
+                android:text="Tortillas De Trigo"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="920dp"
+                android:layout_marginLeft="100dp"
+                android:text="8 unidades"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="950dp"
+                android:layout_marginRight="20dp"
+                android:background="#14575353"
+                android:radius="20dip" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="955dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/sal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="950dp"
+                android:layout_marginLeft="100dp"
+                android:text="Sal"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="970dp"
+                android:layout_marginLeft="100dp"
+                android:text="2 pizcas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="1000dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="1005dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/aceiteoliva" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1000dp"
+                android:layout_marginLeft="100dp"
+                android:text="Aceite De Oliva"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1020dp"
+                android:layout_marginLeft="100dp"
+                android:text="4 cucharadas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="408dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:radius="20dip"
+                android:layout_marginTop="1050dp"
+                android:background="#14575353"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="1055dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tomatefrito" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1050dp"
+                android:layout_marginLeft="100dp"
+                android:text="Tomate Frito"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1070dp"
+                android:layout_marginLeft="100dp"
+                android:text="4 cucharadas"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1130dp"
+                android:layout_marginLeft="150dp"
+                android:text="Pasos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1170dp"
+                android:paddingTop="5dp"
+                android:layout_marginRight="30dp"
+                android:justificationMode="inter_word"
+                android:text="1.- Coloca el pollo sobre una tabla. Échale una pizca de sal y, si quieres de pimienta."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1240dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="2.- A continuación echa un chorrito de aceite en una sartén y, cuando esté caliente, vierte el pollo y cocínalo a fuego medio hasta que se dore. Una vez esté hecho, retíralo, deja que se enfríe un poco, y en tu procesador de alimentos, pícalo dándole algunos golpes de manera que te quede desmenuzado. Resérvalo porque lo emplearás más adelante."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1420dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="3.- En el procesador de alimentos trocea la cebolla, el pimiento rojo y el pimiento verde. Pica los ingredientes con un par de golpes de modo que te queden trozos un poco pequeños, y vierte todas las verduras troceadas en la sartén que antes has empleado (si necesitas añadir un poco más de aceite, añádelo)."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1580dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="4.- Saltea las verduras durante 6-8 minutos, revolviendo de vez en cuando y ponles un poquito de sal."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1660dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="5.- Cuando las verduras estén tiernas vierte el pollo desmenuzado que tenías reservado y mezcla."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1730dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="6.- Termina añadiendo un par de cucharadas de sala de tomate y una cucharada de agua. Mezcla de manera que te quede un relleno jugoso."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1820dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="7.- Sobre cada tortilla pon un poco del relleno y un poco de queso rallado. Pasa cada tortilla por una sartén caliente y cuando se doren y el queso se funda, las retiras y sirves en un plato."
+                android:textColor="#B0000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1960dp"
+                android:layout_marginLeft="110dp"
+                android:text="Trucos y consejos"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1990dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="5dp"
+                android:text="Si te gusta el picante este es un plato perfecto para poner."
+                android:textColor="#B0000000"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="408dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="2080dp"
+                android:background="#3400ACC1"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
